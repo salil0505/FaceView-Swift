@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  FaceViewController.swift
 //  FaceIt
 //
 //  Created by Salil Thakur on 8/19/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FaceViewController: UIViewController {
   
   @IBOutlet weak var faceView: FaceView! {
     didSet {
@@ -27,8 +27,7 @@ class ViewController: UIViewController {
       let swipeDownRecognizer = UISwipeGestureRecognizer.init(target: self, action: #selector(decreaseHappiness))
       swipeDownRecognizer.direction = .up
       faceView.addGestureRecognizer(swipeDownRecognizer)
-        
-        
+      
       updateUI()
     }
   }
