@@ -26,11 +26,11 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="scale">
-                                        <real key="value" value="0.5"/>
+                                        <real key="value" value="0.80000000000000004"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="eyesOpen" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
-                                        <real key="value" value="19"/>
+                                        <real key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="color">
                                         <color key="value" red="0.82784944770000002" green="0.33063191180000001" blue="0.23884856700000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -49,6 +49,9 @@
                             <constraint firstItem="Aty-bY-kwg" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="meJ-Ru-KGO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="faceView" destination="Aty-bY-kwg" id="hit-Jz-wAR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
